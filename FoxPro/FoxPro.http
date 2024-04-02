@@ -1,0 +1,6 @@
+@FoxPro_HostAddress = http://localhost:5070
+
+GET {{FoxPro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
