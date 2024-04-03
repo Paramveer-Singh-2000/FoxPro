@@ -67,8 +67,9 @@ namespace FoxPro.Auth.Reposititory
                         Token = new JwtSecurityTokenHandler().WriteToken(token),
                         IsSuccessFul = true,
                         RefreshToken = refreshToken,
-                        UserName = model.UserName,
+                        UserName = user.UserName,
                         Email = model.Email,
+                        Role = role,
                     };
                 }
                 return new LoginResponseViewModel

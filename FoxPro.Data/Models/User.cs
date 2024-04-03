@@ -10,15 +10,14 @@ namespace FoxPro.Data.Models
 {
     public class User : ApplicationUser
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
-        public string Email { get; set; }
         public List<string>? Technologies { get; set; }
-        public List<Project>? Projects { get; set; }
+        public Guid ProjectsId { get; set; }
+        public ICollection<Project>? Projects { get; set; }
         public string? Image { get; set; }
         public DateTime CreatedOn { get; set; }
-        public DateTime UpdatedOn { get; set; }
+        public DateTime? UpdatedOn { get; set; }
         public Guid CreatedBy { get; set; }
-        public Guid UpdatedBy { get; set; }
+        public Guid? UpdatedBy { get; set; }
     }
 }

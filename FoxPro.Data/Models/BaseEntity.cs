@@ -10,8 +10,6 @@ namespace FoxPro.Data.Models
 {
     public class BaseEntity
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
         public DateTime CreatedOn { get; set; }
         public string CreatedBy { get; set; }
