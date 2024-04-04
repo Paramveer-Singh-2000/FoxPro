@@ -16,6 +16,7 @@ namespace FoxPro.Data.Data
 {
     public class ApplicationDbContext : LoginPortalDbContext<User>
     {
+        public DbSet<Project> Projects { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }

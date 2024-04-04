@@ -8,7 +8,7 @@ namespace FoxPro.Data.Models
 {
     public class Project:BaseEntity
     {
-       
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public ICollection<User>? Developers { get; set; }

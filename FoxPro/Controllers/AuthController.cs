@@ -20,7 +20,7 @@ namespace FoxPro.Controllers
         [HttpPost("Login")]
         public async Task<ActionResult<User>> Login(LoginRequestViewModel model)
         {
-            var checkUser = await _loginRepository.Login(model); 
+            var checkUser = await _loginRepository.Login(model);
             
             return Ok(checkUser);
         }
