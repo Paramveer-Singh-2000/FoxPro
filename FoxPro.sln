@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxPro", "FoxPro\FoxPro.csproj", "{485F3CD7-F29A-44F4-A7B2-9945EC20A83C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxPro", "FoxPro\FoxPro.csproj", "{485F3CD7-F29A-44F4-A7B2-9945EC20A83C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxPro.Data", "FoxPro.Data\FoxPro.Data.csproj", "{C2B80E1C-E8E6-49D4-AA9A-E55FFBD88CEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxPro.Data", "FoxPro.Data\FoxPro.Data.csproj", "{C2B80E1C-E8E6-49D4-AA9A-E55FFBD88CEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxPro.Service", "FoxPro.Service\FoxPro.Service.csproj", "{99DD2D88-9952-4E32-9033-90DC57C25187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxPro.Service", "FoxPro.Service\FoxPro.Service.csproj", "{99DD2D88-9952-4E32-9033-90DC57C25187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxPro.ViewModel", "FoxPro.ViewModel\FoxPro.ViewModel.csproj", "{B7F89BD1-176E-47FE-941F-1B39EDD7F77C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxPro.ViewModel", "FoxPro.ViewModel\FoxPro.ViewModel.csproj", "{B7F89BD1-176E-47FE-941F-1B39EDD7F77C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxPro.Auth", "FoxPro.Auth\FoxPro.Auth.csproj", "{60AD95C5-619D-419E-897E-913EF935E435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B7F89BD1-176E-47FE-941F-1B39EDD7F77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F89BD1-176E-47FE-941F-1B39EDD7F77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F89BD1-176E-47FE-941F-1B39EDD7F77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AD95C5-619D-419E-897E-913EF935E435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AD95C5-619D-419E-897E-913EF935E435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AD95C5-619D-419E-897E-913EF935E435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AD95C5-619D-419E-897E-913EF935E435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
