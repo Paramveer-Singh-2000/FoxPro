@@ -1,4 +1,4 @@
-﻿using FoxPro.Auth.Entities;
+﻿    using FoxPro.Auth.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
